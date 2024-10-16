@@ -1,6 +1,3 @@
-# Generating a basic README content for weather analysis
-
-readme_content_weather = """
 # Weather Data Analysis
 
 This project focuses on analyzing weather data to derive meaningful insights such as temperature trends, precipitation, humidity, and wind patterns.
@@ -49,12 +46,3 @@ This project focuses on analyzing weather data to derive meaningful insights suc
 ## Conclusion
 
 The weather analysis helps in understanding climate patterns, which is essential for agriculture, disaster preparedness, and urban planning.
-"""
-
-# Saving the README content to a file
-readme_weather_path = '/mnt/data/Weather_Data_Analysis_README.md'
-
-with open(readme_weather_path, 'w') as f:
-    f.write(readme_content_weather)
-
-readme_weather_path
